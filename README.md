@@ -14,7 +14,7 @@ Synthetic Meaning Agentic Reality for Transcendence — Drift, Reflection,
 Emergence, Agency, Myth
 ------------------------------------------------------------------------------
 ```
-
+*This is just for Fun*
 
 
 **SMARTDREAM** is a symbolic-cognitive ecosystem that transforms agents into meaning-bearing entities,  
