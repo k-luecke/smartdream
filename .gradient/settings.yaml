@@ -1,0 +1,8 @@
+integrations:
+  flatfiles:
+    type: s3
+    url: s3://flatfiles/us_stocks_sip/
+    accessKeyId: secret:polygon_aws_access_key_id
+    secretAccessKey: secret:polygon_aws_secret_access_key
+    permissions: rw
+    enabled: false
