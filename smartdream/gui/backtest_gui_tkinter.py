@@ -1,3 +1,4 @@
+import os
 import gradio as gr
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -95,8 +96,8 @@ class BacktestEngine:
 
 # --- AWS S3 Setup ---
 session = boto3.Session(
-    aws_access_key_id='91dde2f7-76ed-40cc-9f0a-3b5b77a07c5e',
-    aws_secret_access_key='cQ3Tbc3EPAd0tjGTMPmH87QdS0t36uxp',
+    aws_access_key_id=os.environ["POLYGON_S3_ACCESS_KEY_ID"],
+    aws_secret_access_key=os.environ["POLYGON_S3_SECRET_ACCESS_KEY"],
 )
 s3 = session.client(
     's3',

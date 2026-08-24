@@ -98,7 +98,7 @@ class BacktestEngine:
         return 0.01 if row['v'] > 500 else -0.01
 
 # --- REST Backtest Function ---
-polygon_api_key = "WOkhsAafUoCNhSWE8lmg0s0blhPOLFGj"
+polygon_api_key = os.environ["POLYGON_API_KEY"]
 
 def get_rest_agg_data(ticker="AAPL", date="2024-03-07"):
     url = f"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/minute/{date}/{date}?adjusted=true&sort=asc&limit=50000&apiKey={polygon_api_key}"

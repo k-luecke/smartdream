@@ -1,0 +1,7 @@
+
+# Local state / editor + trash artifacts — never commit
+.Trash-0/
+.ipynb_checkpoints/
+*.zip
+.env
+.env.local
